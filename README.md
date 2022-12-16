@@ -43,7 +43,7 @@ Before proceeding to the model development, the data analyses are done based on 
 In this stage, the model was develop using ```LTSM``` neural network which was provided in ```tensorflow``` module.The model architecture can be seen below:
 
 <p align="center">
-  <img src="" />
+  <img src="https://github.com/acrimn123/Article_Classification/blob/main/model.png" />
 </p>
 
 ## Model training
@@ -51,11 +51,11 @@ In this stage, the model was develop using ```LTSM``` neural network which was p
 For the model training, the model, which have been explained above will be compile. In this project, the model was compile using Adam as optimizer, Categorial Entropy for loss and accuracy as metrics. Then, the model was fit with the (x_train,x_test,y_train_y_test) data split. The result of the training can be seen below:-
 
 <p align="center">
-  <img src="" />
+  <img src="https://github.com/acrimn123/Article_Classification/blob/main/PNG/Accuracy.png" />
 </p>
 
 <p align="center">
-  <img src="" />
+  <img src="https://github.com/acrimn123/Article_Classification/blob/main/PNG/Loss.png" />
 </p>
 
 ## Model evaluation
@@ -63,10 +63,10 @@ For the model training, the model, which have been explained above will be compi
 After completing the model training, the model will need to be evaluate to check if the model prediction is close to the actual label.The predicion were done using Classification report. The performance of the model are describe in classificaton report as below:-   
 
 <p align="center">
-  <img src="" />
+  <img src="https://github.com/acrimn123/Article_Classification/blob/main/PNG/Classification_report.png" />
 </p>
 
 ## Acknowledgements
 
- Special thanks to the MOH Malaysia for providing the [data](https://github.com/MoH-Malaysia/covid19-public) on COVID-19 in Malaysia
+ Sepcial thanks to [Susan Li](https://github.com/susanli2016) for the [data](https://raw.githubusercontent.com/susanli2016/PyCon-Canada-2019-NLP-Tutorial/master/bbc-text.csv). 
 
