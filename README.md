@@ -66,6 +66,8 @@ After completing the model training, the model will need to be evaluate to check
   <img src="https://github.com/acrimn123/Article_Classification/blob/main/PNG/Classification_report.png" />
 </p>
 
+The best accuracy is only around 0.55 which is quite low. The loss graph also show an overfitting graph which show that this model can be improve more in the future.
+
 ## Acknowledgements
 
  Sepcial thanks to [Susan Li](https://github.com/susanli2016) for the [data](https://raw.githubusercontent.com/susanli2016/PyCon-Canada-2019-NLP-Tutorial/master/bbc-text.csv). 
